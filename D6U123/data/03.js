@@ -116,7 +116,7 @@ questionLines = function(){/*--這一行請勿更改--
 [has]##有（第三人稱單數時用）has
 [class]##課 class
 [science]##自然 science
-[social studies]##社會 social studies
+[social] [studies]##社會 social studies
 [doesn't]##does not縮寫 doesn't
 [don't]##do not縮寫 don't
 -----*/}.toString().slice("function(){/*--這一行請勿更改--".length+2+(typeof(CR_LF_First_Pos)!='undefined' ? CR_LF_First_Pos:0),-9);

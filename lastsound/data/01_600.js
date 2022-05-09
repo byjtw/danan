@@ -81,7 +81,7 @@ seperator = '##';
 //
 questionLines = function(){/*--這一行請勿更改--
 an[t]##螞蟻
-a[x]##蘋果
+a[x]##斧頭
 ba[g]##袋子
 bi[g]##大的
 ca[t]##貓

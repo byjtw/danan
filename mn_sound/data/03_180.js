@@ -80,49 +80,58 @@ seperator = '##';
 //    第三欄為MP3語音檔的路徑(沒有的話，tts_enabled = true 會以第一欄為TTS的朗讀內容)
 //
 questionLines = function(){/*--這一行請勿更改--
-an[t]##螞蟻
-a[x]##斧頭
-ba[g]##袋子
-bi[g]##大的
-ca[t]##貓
-cu[p]##杯子
-fa[n]##風扇
-a[n]##一個
-goa[t]##山羊
-gir[l]##女孩
-han[d]##手
-ha[t]##帽子
-in[k]##墨水
-insec[t]##昆蟲
-je[t]##噴射機
-ja[m]##果醬
-be[d]##床
-el[f]##精靈
-lio[n]##獅子
-le[g]##腳
-bel[l]##響鈴
-mil[k]##牛奶
-pi[n]##大頭針
-nec[k]##脖子
-[o][x]#公牛
-da[m]##水壩
-pi[g]##豬
-pin[k]##粉紅色
-quee[n]##皇后
-qui[z]##小考
-re[d]##紅色
-rabbi[t]##兔子
-boo[k]##書
-su[n]##太陽
-di[p]##沾醬
-boa[r]##野豬
-u[p]##往上
-glas[s]##玻璃
-va[n]##箱型車
-ves[t]##背心
-fo[x]##狐狸
-o[z]##巫師
-bo[x]##盒子
-yogur[t]##優格
+gu[m]##你聽到的字尾音是 m 還是 n
+hu[m]##你聽到的字尾音是 m 還是 n
+ha[m]##你聽到的字尾音是 m 還是 n
+ja[m]##你聽到的字尾音是 m 還是 n
+Ki[m]##你聽到的字尾音是 m 還是 n
+mo[m]##你聽到的字尾音是 m 還是 n
+Pa[m]##你聽到的字尾音是 m 還是 n
+ra[m]##你聽到的字尾音是 m 還是 n
+Ti[m]##你聽到的字尾音是 m 還是 n
+ya[m]##你聽到的字尾音是 m 還是 n
+dru[m]##你聽到的字尾音是 m 還是 n
+va[n]##你聽到的字尾音是 m 還是 n
+to[n]##你聽到的字尾音是 m 還是 n
+bu[n]##你聽到的字尾音是 m 還是 n
+Be[n]##你聽到的字尾音是 m 還是 n
+fu[n]##你聽到的字尾音是 m 還是 n
+fa[n]##你聽到的字尾音是 m 還是 n
+gu[n]##你聽到的字尾音是 m 還是 n
+he[n]##你聽到的字尾音是 m 還是 n
+ma[n]##你聽到的字尾音是 m 還是 n
+nu[n]##你聽到的字尾音是 m 還是 n
+pa[n]##你聽到的字尾音是 m 還是 n
+ra[n]##你聽到的字尾音是 m 還是 n
+su[n]##你聽到的字尾音是 m 還是 n
+te[n]##你聽到的字尾音是 m 還是 n
+va[n]##你聽到的字尾音是 m 還是 n
+wi[n]##你聽到的字尾音是 m 還是 n
+Ke[n]##你聽到的字尾音是 m 還是 n
+moo[n]##你聽到的字尾音是 m 還是 n
+violi[n]##你聽到的字尾音是 m 還是 n
+[m]om##你聽到的字首音是 m 還是 n
+[m]oon##你聽到的字首音是 m 還是 n
+[m]urmur##你聽到的字首音是 m 還是 n
+[m]other##你聽到的字首音是 m 還是 n
+[m]ummy##你聽到的字首音是 m 還是 n
+[m]an##你聽到的字首音是 m 還是 n
+[m]inute##你聽到的字首音是 m 還是 n
+[m]onkey##你聽到的字首音是 m 還是 n
+[m]acbook##你聽到的字首音是 m 還是 n
+[m]en##你聽到的字首音是 m 還是 n
+[m]useum##你聽到的字首音是 m 還是 n
+[m]ain##你聽到的字首音是 m 還是 n
+[n]ot##你聽到的字首音是 m 還是 n
+[n]umber##你聽到的字首音是 m 還是 n
+[n]oodles##你聽到的字首音是 m 還是 n
+[n]eighbor##你聽到的字首音是 m 還是 n
+[n]oon##你聽到的字首音是 m 還是 n
+[n]ine##你聽到的字首音是 m 還是 n
+[n]inety##你聽到的字首音是 m 還是 n
+[n]anny##你聽到的字首音是 m 還是 n
+[n]utrient##你聽到的字首音是 m 還是 n
+[n]urse##你聽到的字首音是 m 還是 n
+[n]ose##你聽到的字首音是 m 還是 n
 -----*/}.toString().slice("function(){/*--這一行請勿更改--".length+2+(typeof(CR_LF_First_Pos)!='undefined' ? CR_LF_First_Pos:0),-9);
 

@@ -43,6 +43,6 @@ menuItemLines = function(){/*--這一行請勿更改--
 單字高手:D6U1~3單字要記憶的空格,02.js
 單字高手:D6U1~3單字抄寫,03.js
 單字高手:D6U1~3單字unscramble,04.js
-單字高手:D6U1~3單字(無提示）,05.js
+單字高手:D6U1~3單字(無提示,05.js
 -----*/}.toString().slice("function(){/*--這一行請勿更改--".length+2+(typeof(CR_LF_First_Pos)!='undefined' ? CR_LF_First_Pos:0),-9);
 

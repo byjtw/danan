@@ -89,7 +89,7 @@ questionLines = function(){/*--這一行請勿更改--
 [table]##桌子 bleat
 [under]##在...之下 ndreu
 [on]##在...之上 no
-[next to]##在...旁邊 texn ot
+[next] [to]##在...旁邊 texn ot
 [where]##哪裏 ewher
 [my]##我的 ym
 [in]##在...裡面 ni

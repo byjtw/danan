@@ -96,7 +96,7 @@ questionLines = function(){/*--這一行請勿更改--
 [is]##是（用在he/she/it) si
 [are]##是（用在複數,you) ear
 [it]##它,牠 ti
-[cut]##剪，切 ucu
+[cut]##剪，切 tcu
 [cute]##可愛的 euct
 [tub]##浴缸 ubt
 [tube]##試管 ebut

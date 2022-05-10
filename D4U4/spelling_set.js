@@ -19,7 +19,7 @@ CR_LF_First_Pos = CR_LF_test.indexOf('_LF')-'CR_LF'.indexOf('_LF');
 
 //
 //上方標題
-title = 'H2U4單字練習';
+title = '單字高手';
 
 //
 //虛擬鍵盤是否使用數字(使用: true, 不使用: false)
@@ -27,7 +27,7 @@ number_enabled = false;
 
 //
 //上載成績單記錄的網址
-logger_url = '';
+logger_url = ''
 
 //
 //存放題庫檔的資料夾名稱(相對於目前的資料夾
@@ -39,10 +39,10 @@ datafolder = 'data';
 //  以半形逗號為【選項文字】與【題庫檔名】兩欄的分欄符號
 //
 menuItemLines = function(){/*--這一行請勿更改--
-單字高手:H2U4單字發音規則的空格,01.js
-單字高手:H2U4單字要記憶的空格,02.js
-單字高手:H2U4單字抄寫,03.js
-單字高手:H2U4單字(有提示),04.js
-單字高手:H2U4單字(無提示),05.js
+單字高手:D4U4單字(依發音規則)(限時600秒),01.js
+單字高手:D4U4單字(要記憶)(限時600秒),02.js
+單字高手:D4U4單字抄寫(限時1000秒),03.js
+單字高手:D4U4單字挑戰(有提示）(限時1000秒),04.js
+單字高手:D4U4單字挑戰(無提示）(限時1000秒),05.js
 -----*/}.toString().slice("function(){/*--這一行請勿更改--".length+2+(typeof(CR_LF_First_Pos)!='undefined' ? CR_LF_First_Pos:0),-9);
 

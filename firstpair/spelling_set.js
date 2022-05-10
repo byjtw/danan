@@ -19,7 +19,7 @@ CR_LF_First_Pos = CR_LF_test.indexOf('_LF')-'CR_LF'.indexOf('_LF');
 
 //
 //上方標題
-title = 'H2U4單字練習';
+title = '首音相似音辨識';
 
 //
 //虛擬鍵盤是否使用數字(使用: true, 不使用: false)
@@ -39,10 +39,10 @@ datafolder = 'data';
 //  以半形逗號為【選項文字】與【題庫檔名】兩欄的分欄符號
 //
 menuItemLines = function(){/*--這一行請勿更改--
-單字高手:H2U4單字發音規則的空格,01.js
-單字高手:H2U4單字要記憶的空格,02.js
-單字高手:H2U4單字抄寫,03.js
-單字高手:H2U4單字(有提示),04.js
-單字高手:H2U4單字(無提示),05.js
+單字高手:聽選b或p的發音(限時180秒),bp_180.js
+單字高手:聽選d或t的發音(限時180秒),dt_180.js
+單字高手:聽選m或n的發音(限時180秒),mn_180.js
+單字高手:聽選f或v的發音(限時180秒),fv_180.js
+單字高手:聽選l或r的發音(限時180秒),lr_180.js
 -----*/}.toString().slice("function(){/*--這一行請勿更改--".length+2+(typeof(CR_LF_First_Pos)!='undefined' ? CR_LF_First_Pos:0),-9);
 

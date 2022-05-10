@@ -57,7 +57,7 @@ tts_cut_last_seconds = 0; //裁掉最後面的聲音長度(秒為單位)
 //---------------------------------------------------
 //
 //計時幾秒
-timer = 60;
+timer = 180;
 
 //
 //答對一題加幾分
@@ -65,7 +65,7 @@ number_of_points_for_one_question = 10;
 
 //
 //每題要拿掉幾個字母當填空
-blanks_total_number = 3;
+blanks_total_number = 1;
 
 //
 //欄位分隔符號為兩個井字號(##)
@@ -80,12 +80,50 @@ seperator = '##';
 //    第三欄為MP3語音檔的路徑(沒有的話，tts_enabled = true 會以第一欄為TTS的朗讀內容)
 //
 questionLines = function(){/*--這一行請勿更改--
-[student]##esntdut學生
-[teacher]##ahetecr老師
-[doctor]##rodtoc醫生
-[nurse]##rnseu護士
-[cook]##okco廚師
-[driver]##idervr司機
+[m]ay##請選填 m 或 n 
+[m]an##請選填 m 或 n 
+[m]en##請選填 m 或 n 
+[m]et##請選填 m 或 n 
+[m]ix##請選填 m 或 n 
+[m]id##請選填 m 或 n 
+[m]ap##請選填 m 或 n 
+[m]ad##請選填 m 或 n 
+[m]ax##請選填 m 或 n 
+[m]ac##請選填 m 或 n 
+[m]ud##請選填 m 或 n 
+[m]um##請選填 m 或 n 
+[m]ar##請選填 m 或 n 
+[m]om##請選填 m 或 n 
+[m]at##請選填 m 或 n 
+[m]eg##請選填 m 或 n 
+[m]ob##請選填 m 或 n 
+[m]on##請選填 m 或 n 
+[m]ed##請選填 m 或 n 
+[m]ug##請選填 m 或 n 
+[m]as##請選填 m 或 n 
+[m]od##請選填 m 或 n 
+[m]il##請選填 m 或 n 
+[m]ot##請選填 m 或 n 
+[n]ot##請選填 m 或 n 
+[n]ew##請選填 m 或 n 
+[n]ow##請選填 m 或 n 
+[n]et##請選填 m 或 n 
+[n]or##請選填 m 或 n 
+[n]od##請選填 m 或 n 
+[n]il##請選填 m 或 n 
+[n]ut##請選填 m 或 n 
+[n]an##請選填 m 或 n 
+[n]os##請選填 m 或 n 
+[n]un##請選填 m 或 n 
+[n]eg##請選填 m 或 n 
+[n]ap##請選填 m 或 n 
+[n]ab##請選填 m 或 n 
+[n]ip##請選填 m 或 n 
+[n]eb##請選填 m 或 n 
+[n]ay##請選填 m 或 n 
+[n]ah##請選填 m 或 n 
+[n]ee##請選填 m 或 n 
+[n]ag##請選填 m 或 n 
+[n]it##請選填 m 或 n 
 -----*/}.toString().slice("function(){/*--這一行請勿更改--".length+2+(typeof(CR_LF_First_Pos)!='undefined' ? CR_LF_First_Pos:0),-9);
-
 

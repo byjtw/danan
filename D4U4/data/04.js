@@ -57,7 +57,7 @@ tts_cut_last_seconds = 0; //裁掉最後面的聲音長度(秒為單位)
 //---------------------------------------------------
 //
 //計時幾秒
-timer = 60;
+timer = 1000;
 
 //
 //答對一題加幾分
@@ -65,7 +65,7 @@ number_of_points_for_one_question = 10;
 
 //
 //每題要拿掉幾個字母當填空
-blanks_total_number = 3;
+blanks_total_number = 1;
 
 //
 //欄位分隔符號為兩個井字號(##)
@@ -80,11 +80,27 @@ seperator = '##';
 //    第三欄為MP3語音檔的路徑(沒有的話，tts_enabled = true 會以第一欄為TTS的朗讀內容)
 //
 questionLines = function(){/*--這一行請勿更改--
-st[u]d[e]nt##學生
-t[ea][ch]er##老師
-d[o]ct[or]##醫生
-n[ur]s[e]##護士
-c[oo]k##廚師
-dr[i]v[er]##司機
+[ball]##球 llba
+[box]##盒子 xbo
+[chair]##椅子 arcih
+[desk]##書桌 kesd
+[key]##鑰匙 eky
+[kite]##風箏 eitk
+[table]##桌子 bleat
+[under]##在...之下 ndreu
+[on]##在...之上 no
+[next to]##在...旁邊 texn ot
+[where]##哪裏 ewher
+[my]##我的 ym
+[in]##在...裡面 ni
+[is]##是（用在he/she/it) si
+[are]##是（用在複數,you) ear
+[it]##它,牠 ti
+[cut]##剪，切 ucu
+[cute]##可愛的 euct
+[tub]##浴缸 ubt
+[tube]##試管 ebut
+[cube]##立方體 ebuc
+[duke]##公爵 kued
 -----*/}.toString().slice("function(){/*--這一行請勿更改--".length+2+(typeof(CR_LF_First_Pos)!='undefined' ? CR_LF_First_Pos:0),-9);
 

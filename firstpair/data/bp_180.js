@@ -80,7 +80,7 @@ seperator = '##';
 //    第三欄為MP3語音檔的路徑(沒有的話，tts_enabled = true 會以第一欄為TTS的朗讀內容)
 //
 questionLines = function(){/*--這一行請勿更改--
-[b]ut##請填寫 b 或 p	
+[b]ird##請填寫 b 或 p	
 [b]ig##請填寫 b 或 p	
 [b]uy##請填寫 b 或 p	
 [b]ad##請填寫 b 或 p	

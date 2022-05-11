@@ -80,27 +80,18 @@ seperator = '##';
 //    第三欄為MP3語音檔的路徑(沒有的話，tts_enabled = true 會以第一欄為TTS的朗讀內容)
 //
 questionLines = function(){/*--這一行請勿更改--
-[ball]##球 llba
-[box]##盒子 xbo
-[chair]##椅子 arcih
-[desk]##書桌 kesd
-[key]##鑰匙 eky
-[kite]##風箏 eitk
-[table]##桌子 bleat
-[under]##在...之下 ndreu
-[on]##在...之上 no
-[next] [to]##在...旁邊 texn ot
-[where]##哪裏 ewher
+[glasses]##眼鏡（複數）asessgl
+[cap]##鴨舌帽 apc
+[umbrella]##雨傘 mu-ebr-all
+[wallet]##皮夾 wa-ellt
+[workbook]##習作 krow-koob
+[backpack]##背包 kacb-cacp
+[gloves]##手套（複數）sgevlo
+[socks]##襪子（複數）sosck
 [my]##我的 ym
-[in]##在...裡面 ni
-[is]##是（用在he/she/it) si
-[are]##是（用在複數,you) ear
-[it]##它,牠 ti
-[cut]##剪，切 tcu
-[cute]##可愛的 euct
-[tub]##浴缸 ubt
-[tube]##試管 ebut
-[cube]##立方體 ebuc
-[duke]##公爵 kued
+[your]##你的 ryuo
+[his]##他的 ish
+[her]##她的 erh
+[whose]##誰的 oeswh
 -----*/}.toString().slice("function(){/*--這一行請勿更改--".length+2+(typeof(CR_LF_First_Pos)!='undefined' ? CR_LF_First_Pos:0),-9);
 

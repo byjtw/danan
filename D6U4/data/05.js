@@ -80,27 +80,19 @@ seperator = '##';
 //    第三欄為MP3語音檔的路徑(沒有的話，tts_enabled = true 會以第一欄為TTS的朗讀內容)
 //
 questionLines = function(){/*--這一行請勿更改--
-[ball]##球
-[box]##盒子 
-[chair]##椅子
-[desk]##書桌
-[key]##鑰匙
-[kite]##風箏
-[table]##桌子
-[under]##在...之下
-[on]##在...之上
-[next] [to]##在...旁邊
-[where]##哪裏
-[my]##我的
-[in]##在...裡面
-[is]##是（用在he/she/it)
-[are]##是（用在複數,you)
-[it]##它,牠
-[cut]##剪，切
-[cute]##可愛的
-[tub]##浴缸
-[tube]##試管
-[cube]##立方體
-[duke]##公爵
+[glasses]##眼鏡（複數）
+[cap]##鴨舌帽 
+[umbrella]##雨傘 
+[wallet]##皮夾 
+[workbook]##習作 
+[backpack]##背包 
+[gloves]##手套（複數）
+[socks]##襪子（複數）
+[my]##我的 
+[your]##你的 
+[his]##他的
+[her]##她的
+[Tom's]##湯姆的
+[whose]##誰的
 -----*/}.toString().slice("function(){/*--這一行請勿更改--".length+2+(typeof(CR_LF_First_Pos)!='undefined' ? CR_LF_First_Pos:0),-9);
 

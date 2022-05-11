@@ -19,7 +19,7 @@ CR_LF_First_Pos = CR_LF_test.indexOf('_LF')-'CR_LF'.indexOf('_LF');
 
 //
 //上方標題
-title = 'D6U4';
+title = 'D6U4單字練習';
 
 //
 //虛擬鍵盤是否使用數字(使用: true, 不使用: false)
@@ -39,6 +39,10 @@ datafolder = 'data';
 //  以半形逗號為【選項文字】與【題庫檔名】兩欄的分欄符號
 //
 menuItemLines = function(){/*--這一行請勿更改--
-單字高手:D6U4單字(依發音規則)(限時),01.js
+單字高手:D6U4單字(依發音規則),01.js
+單字高手:D6U4單字(要記憶),02.js
+單字高手:D6U4單字抄寫,03.js
+單字高手:D6U4單字挑戰(有提示),04.js
+單字高手:D6U4單字挑戰(無提示),05.js
 -----*/}.toString().slice("function(){/*--這一行請勿更改--".length+2+(typeof(CR_LF_First_Pos)!='undefined' ? CR_LF_First_Pos:0),-9);
 
